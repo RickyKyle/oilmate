@@ -97,7 +97,7 @@ def upload_result(remaining_oil):
 	
 	# Url, token, and data for the API>
 	url = 'http://159.65.93.37/api/readings/new'
-	headers = {"x-access-token" : "dzvqi6bvxi8:APA91bH19Pk4erAutmyN6CuaqD2zcrY4kINx3vTUhscbkC2mjPq27-QgupdPoStrSysTyB22oFrcxgMJAHajbXt4BoGaONBfUdsUoBPppQJld6pvUtxhAMYaR_AScRjhXvfnQQ44O6YO"}
+	headers = {"x-access-token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjEsInVzZXJuYW1lIjoiUmlja3lLeWxlIiwiaWF0IjoxNTYzNzM0ODA1fQ.w_Ik97ldaX_9CmDR7kZouw8_s5acTxlyb0Fn4IsIwg8"}
 	data = {
 			"deviceID" : deviceID,
 			"reading" : remaining_oil,
