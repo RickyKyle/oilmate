@@ -97,7 +97,7 @@ def upload_result(remaining_oil):
 	
 	# Url, token, and data for the API>
 	url = 'http://159.65.93.37/api/readings/new'
-	headers = {"x-access-token" : "oilmateaccesspass"}
+	headers = {"x-access-token" : "dzvqi6bvxi8:APA91bH19Pk4erAutmyN6CuaqD2zcrY4kINx3vTUhscbkC2mjPq27-QgupdPoStrSysTyB22oFrcxgMJAHajbXt4BoGaONBfUdsUoBPppQJld6pvUtxhAMYaR_AScRjhXvfnQQ44O6YO"}
 	data = {
 			"deviceID" : deviceID,
 			"reading" : remaining_oil,
